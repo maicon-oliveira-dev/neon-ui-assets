@@ -1544,6 +1544,198 @@ select.input:focus {
 /* ==========================================================
    Responsive
    ========================================================== */
+@media (max-width: 640px) {
+  :root {
+    --container-pad: 18px;
+  }
+
+  .site-header__inner {
+    padding: 12px var(--container-pad);
+    gap: 10px;
+  }
+
+  .btn {
+    padding: 0.65rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .btn--small {
+    padding: 0.5rem 0.9rem;
+    font-size: 0.8rem;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .brand__mark {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+  }
+
+  .brand__text {
+    font-size: 0.9rem;
+    line-height: 1.1;
+  }
+
+  .site-header__actions {
+    gap: 8px;
+  }
+
+  .site-header__actions .btn {
+    padding: 0.55rem 0.9rem;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+
+  .menu-toggle {
+    padding: 8px;
+  }
+
+  .menu-toggle__bar {
+    width: 20px;
+  }
+
+  .hero {
+    padding: 72px 0 24px;
+  }
+
+  .carousel__slide {
+    padding: 22px;
+    min-height: clamp(380px, 64vh, 520px);
+  }
+
+  .hero__eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+  }
+
+  .hero__title {
+    font-size: clamp(1.6rem, 6.4vw, 2.2rem);
+    line-height: 1.1;
+  }
+
+  .hero__subtitle {
+    font-size: 0.95rem;
+  }
+
+  .hero__actions {
+    gap: 10px;
+  }
+
+  .hero__actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .carousel__controls,
+  .carousel__pagination {
+    position: static;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .carousel__controls {
+    margin-top: 12px;
+    gap: 10px;
+  }
+
+  .carousel__button {
+    padding: 0.45rem 0.85rem;
+    font-size: 0.8rem;
+  }
+
+  .carousel__pagination {
+    margin-top: 8px;
+  }
+
+  .carousel__dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .metrics {
+    margin-top: -16px;
+    padding-bottom: 24px;
+  }
+
+  .metric {
+    padding: 14px;
+  }
+
+  .metric__value {
+    font-size: 1.1rem;
+  }
+
+  .metric__label {
+    font-size: 0.85rem;
+  }
+
+  .section {
+    padding: 48px 0;
+  }
+
+  .section__title {
+    font-size: clamp(1.5rem, 6vw, 2.1rem);
+  }
+
+  .section__subtitle {
+    font-size: 0.95rem;
+  }
+
+  .page-hero__content h1 {
+    font-size: clamp(1.8rem, 7vw, 2.4rem);
+  }
+
+  .page-hero__content p {
+    font-size: 0.95rem;
+  }
+
+  .page-hero__stats {
+    gap: 10px;
+  }
+
+  .page-hero__stat strong {
+    font-size: 1rem;
+  }
+
+  .project-card__actions .btn {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+  .cta__inner {
+    padding: 24px;
+  }
+
+  .cta__content {
+    gap: 10px;
+  }
+
+  .cta__actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cta__slide {
+    padding: 16px;
+  }
+
+  .cta__slide-title {
+    font-size: 1rem;
+  }
+
+  .cta__slide-text {
+    font-size: 0.9rem;
+  }
+
+  .cta__control {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.75rem;
+  }
+}
+
 @media (min-width: 768px) {
   :root {
     --container-pad: var(--space-lg);
