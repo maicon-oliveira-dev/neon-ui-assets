@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR" id="top">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - Atelier Nova</title>
+    <meta
+      name="description"
+      content="Insights e dicas de página premium para quem busca clareza e presença visual."
+    />
+    <meta property="og:title" content="Blog - Atelier Nova" />
+    <meta property="og:description" content="Insights e dicas de página premium para quem busca clareza e presença visual." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Atelier Nova" />
+    <meta property="og:url" content="https://maicon-oliveira-dev.github.io/neon-ui-assets/window/blog.html" />
+    <meta property="og:image" content="https://maicon-oliveira-dev.github.io/neon-ui-assets/assets/img/banners/banner-01.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Blog - Atelier Nova" />
+    <meta name="twitter:description" content="Insights e dicas de página premium para quem busca clareza e presença visual." />
+    <meta name="twitter:image" content="https://maicon-oliveira-dev.github.io/neon-ui-assets/assets/img/banners/banner-01.png" />
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/blog.css" />
+    <script defer src="../assets/jv/main.js"></script>
+    <script defer src="../assets/jv/blog.js"></script>
+  </head>
+  <body class="page page--blog">
+    <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+    <header class="site-header" role="banner">
+      <div class="site-header__inner">
+        <a class="brand" href="../index.html" aria-label="Atelier Nova - início">
+          <span class="brand__mark" aria-hidden="true"><img src="../assets/img/logo/logo.png" alt="" /></span>
+          <span class="brand__text">Coloque sua marca aqui</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Principal">
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="../index.html">Início</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="projects.html">Projetos</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="services.html">Serviços</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="about.html">Sobre</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="contact.html">Contato</a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link is-active" href="blog.html">Blog</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="site-header__actions">
+          <a class="btn btn--primary" href="contact.html">Ver detalhes</a>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Abrir menu"
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+          >
+            <span class="menu-toggle__bar"></span>
+            <span class="menu-toggle__bar"></span>
+            <span class="menu-toggle__bar"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu" hidden>
+        <nav class="mobile-menu__nav" aria-label="Menu mobile">
+          <ul class="mobile-menu__list">
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="projects.html">Projetos</a></li>
+            <li><a href="services.html">Serviços</a></li>
+            <li><a href="about.html">Sobre</a></li>
+            <li><a href="contact.html">Contato</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero page-hero--blog" aria-label="Blog">
+        <div class="page-hero__grid">
+          <div class="page-hero__content" data-reveal>
+            <p class="page-hero__badge">Insights premium</p>
+            <h1>Conteúdo para apresentar seu trabalho com calma</h1>
+            <p>
+              Estratégias, tendências e boas práticas para posicionar seu trabalho com
+              elegância e clareza.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="contact.html">Ver detalhes</a>
+              <a class="btn btn--ghost" href="#posts">Ver artigos</a>
+            </div>
+          </div>
+          <div class="page-hero__media" data-reveal data-reveal-delay="120">
+            <img src="../assets/img/projects-details/project-detail-20.png" alt="Capa do blog" />
+            <img
+              class="page-hero__media-glow"
+              src="../assets/img/decor-assets/asset-glow-05.png"
+              alt=""
+              aria-hidden="true"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-post" aria-label="Artigo em destaque">
+        <div class="featured-post__card" data-reveal>
+          <img src="../assets/img/projects-details/project-detail-21.png" alt="Destaque premium" />
+          <div class="featured-post__content">
+            <span class="pill">Estratégia</span>
+            <h2>Como elevar seu valor percebido com um layout premium</h2>
+            <p>
+              Um guia rápido para usar tipografia, ritmo visual e estrutura a favor da sua
+              proposta de valor.
+            </p>
+            <a class="btn btn--ghost" href="#posts">Ler artigo</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-filter" aria-label="Filtros">
+        <div class="projects-filter__inner" data-reveal>
+          <button class="chip is-active" type="button" data-filter="all">Todos</button>
+          <button class="chip" type="button" data-filter="estrategia">Estratégia</button>
+          <button class="chip" type="button" data-filter="design">Design</button>
+          <button class="chip" type="button" data-filter="posicionamento">Posicionamento</button>
+        </div>
+      </section>
+
+      <section class="blog-grid" id="posts" aria-label="Lista de artigos">
+        <div class="blog-grid__items">
+          <article class="post-card" data-post data-category="estrategia">
+            <img src="../assets/img/projects-details/project-detail-22.png" alt="Artigo estratégia" />
+            <div class="post-card__content">
+              <span class="pill">Estratégia</span>
+              <h3>Página como narrativa visual</h3>
+              <p>Como estruturar seções para conduzir a leitura.</p>
+            </div>
+          </article>
+          <article class="post-card" data-post data-category="design">
+            <img src="../assets/img/projects-details/project-detail-23.png" alt="Artigo design" />
+            <div class="post-card__content">
+              <span class="pill">Design</span>
+              <h3>Tipografia premium sem esforço</h3>
+              <p>Escolhas simples que elevam o valor percebido.</p>
+            </div>
+          </article>
+          <article class="post-card" data-post data-category="posicionamento">
+            <img src="../assets/img/projects-details/project-detail-24.png" alt="Artigo posicionamento" />
+            <div class="post-card__content">
+              <span class="pill">Posicionamento</span>
+              <h3>Presença high-end com um layout limpo</h3>
+              <p>Posicionamento e narrativa para criar relações consistentes.</p>
+            </div>
+          </article>
+          <article class="post-card" data-post data-category="design">
+            <img src="../assets/img/projects-details/project-detail-25.png" alt="Artigo design" />
+            <div class="post-card__content">
+              <span class="pill">Design</span>
+              <h3>Glassmorphism na medida certa</h3>
+              <p>Quando usar para não perder legibilidade.</p>
+            </div>
+          </article>
+          <article class="post-card" data-post data-category="estrategia">
+            <img src="../assets/img/projects-details/project-detail-26.png" alt="Artigo estratégia" />
+            <div class="post-card__content">
+              <span class="pill">Estratégia</span>
+              <h3>Estrutura de páginas que organiza a leitura</h3>
+              <p>Home, serviços e contato prontos para uma leitura fluida.</p>
+            </div>
+          </article>
+          <article class="post-card" data-post data-category="posicionamento">
+            <img src="../assets/img/projects-details/project-detail-27.png" alt="Artigo posicionamento" />
+            <div class="post-card__content">
+              <span class="pill">Posicionamento</span>
+              <h3>Prova social que acalma</h3>
+              <p>Depoimentos que reforçam confiança.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="newsletter" aria-label="Newsletter">
+        <div class="newsletter__card" data-reveal>
+          <h2>Receba insights premium</h2>
+          <p>Envios semanais com dicas rápidas para apresentar seu trabalho com clareza.</p>
+          <form class="newsletter__form" action="#" method="post">
+            <input class="input" type="email" placeholder="Seu melhor email" required />
+            <button class="btn btn--primary" type="submit">Assinar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-footer__inner">
+        <div class="site-footer__brand">
+          <p class="site-footer__title">Atelier Nova</p>
+          <p class="site-footer__note">Página premium com presença clara e elegante.</p>
+        </div>
+        <div class="site-footer__links">
+          <p class="site-footer__heading">Links rápidos</p>
+          <ul>
+            <li><a href="projects.html">Páginas</a></li>
+            <li><a href="services.html">O que inclui</a></li>
+            <li><a href="about.html">Sobre</a></li>
+            <li><a href="contact.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="site-footer__social">
+          <p class="site-footer__heading">Social</p>
+          <a class="social-link" href="https://github.com/maicon-oliveira-dev/neon-ui-assets" aria-label="GitHub">
+            <img src="../assets/img/icons-ui/blue/icon-05.png" alt="" aria-hidden="true" />
+            GitHub
+          </a>
+        </div>
+      </div>
+      <p class="site-footer__legal">© 2026 Atelier Nova. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
+
